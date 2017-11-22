@@ -1,0 +1,60 @@
+
+gitMicrosoft Windows [Versión 10.0.15063]
+(c) 2017 Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\Alumno>D:
+
+D:\>cd D:\repositorio\git\3C15-ProyectoIntegradorContabilidad
+
+D:\repositorio\git\3C15-ProyectoIntegradorContabilidad>echo "# 3C15-ProyectoIntegradorContabilidad" >> README.md
+
+D:\repositorio\git\3C15-ProyectoIntegradorContabilidad>git init
+Reinitialized existing Git repository in D:/repositorio/git/3C15-ProyectoIntegradorContabilidad/.git/
+
+D:\repositorio\git\3C15-ProyectoIntegradorContabilidad>git add README.md
+
+D:\repositorio\git\3C15-ProyectoIntegradorContabilidad>git commit -m "first commit"
+[master b71a01e] first commit
+ 1 file changed, 1 insertion(+)
+
+D:\repositorio\git\3C15-ProyectoIntegradorContabilidad>git remote add origin https://github.com/julioces244/3C15-ProyectoIntegradorContabilidad.git
+fatal: remote origin already exists.
+
+D:\repositorio\git\3C15-ProyectoIntegradorContabilidad>git push -u origin master
+remote: Permission to julioces244/3C15-ProyectoIntegradorContabilidad.git denied to jandy030199.
+fatal: unable to access 'https://github.com/julioces244/3C15-ProyectoIntegradorContabilidad.git/': The requested URL returned error: 403
+
+D:\repositorio\git\3C15-ProyectoIntegradorContabilidad>git push -u origin master
+Counting objects: 6, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (6/6), 504 bytes | 504.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0)
+To https://github.com/julioces244/3C15-ProyectoIntegradorContabilidad.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+D:\repositorio\git\3C15-ProyectoIntegradorContabilidad>git add .
+
+D:\repositorio\git\3C15-ProyectoIntegradorContabilidad>git commint -m "Cambios version 2"
+git: 'commint' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+D:\repositorio\git\3C15-ProyectoIntegradorContabilidad>git commit -m "Cambios version 2"
+[master 6c9dab7] Cambios version 2
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.php
+
+D:\repositorio\git\3C15-ProyectoIntegradorContabilidad>git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 281 bytes | 281.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/julioces244/3C15-ProyectoIntegradorContabilidad.git
+   b71a01e..6c9dab7  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+D:\repositorio\git\3C15-ProyectoIntegradorContabilidad>
